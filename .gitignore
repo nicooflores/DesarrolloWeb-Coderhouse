@@ -3,3 +3,8 @@
 
 #Ignorar WireFrame
 WireFrame.pdf
+
+#Ignorar los archivos SASS
+/css/sections/
+/css/utilities/
+main.scss
