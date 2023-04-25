@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400&display=swap");
+@keyframes titulo {
+  0% {
+    filter: none;
+  }
+  25% {
+    filter: drop-shadow(8px 8px 4px #f6a318);
+  }
+  50% {
+    filter: none;
+  }
+  75% {
+    filter: drop-shadow(8px 8px 4px #f6a318);
+  }
+  100% {
+    filter: none;
+  }
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.header {
+  width: 100%;
+  min-height: 60px;
+  position: fixed;
+  top: 0px;
+  z-index: 2;
+  border-bottom: 4px solid orange;
+}
+.header .container {
+  padding-left: 2rem;
+}
+.header .container img {
+  height: 50px;
+}
+.header .navbar-collapse {
+  justify-content: flex-end;
+}
+.header .navbar-collapse .nav-item {
+  list-style: none;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
+}
+.header .navbar-collapse .nav-item:hover {
+  -webkit-text-decoration: underline orange 2px;
+          text-decoration: underline orange 2px;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: #575758;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+.footer div {
+  border: solid 3px #1E3050;
+  border-radius: 50%;
+  margin: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer div i {
+  font-size: 1.5rem;
+  color: #1E3050;
+}
+
+.main {
+  padding-top: 60px;
+}
+.main .main__div--h1 {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+.main .main__div--h1 .tituloPrincipal {
+  position: absolute;
+  z-index: 1;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-60%);
+  animation: titulo 3s;
+}
+.main .main__div--h1 .video {
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.main .main__div--h2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.main .main__div--h2 h2 {
+  background-color: rgba(128, 128, 128, 0.5);
+  padding: 1rem;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: white;
+}
+.main .campamento {
+  background-image: url("../resources/images/campamentoRecortado.JPG");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.main .piletas {
+  background-image: url("../resources/images/campamentoPileta.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.main .panoramica {
+  background-image: url("../resources/images/retroPileta.JPG");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.main .main__div--div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .main__div--div div {
+  width: 50%;
+  overflow: -moz-hidden-unscrollable;
+}
+.main .main__div--div div h3 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 2rem;
+  padding: 1rem;
+  margin: 0rem;
+  text-align: center;
+}
+.main .main__div--div div p {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 1.5rem;
+  padding: 0.8rem;
+}
+.main .main__div--div div img {
+  width: 100%;
+}
+.main .main__div--div .estadisticas {
+  width: 25%;
+  min-height: 15rem;
+  border: #9a9999 1px solid;
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.main .main__div--div .estadisticas h2 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 3rem;
+}
+.main .main__div--div .estadisticas p {
+  font-size: 1.5rem;
+}
+
+.main .main__div--principalSomos {
+  width: 100%;
+  height: 400px;
+  background-image: url("/resources/images/piletas.JPG");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.main .main__div--principalSomos h2 {
+  background-color: rgba(255, 255, 255, 0.574);
+  font-family: "Work Sans", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  width: 55%;
+  padding-left: 7%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+.main .main__div--principalSomos h2 span {
+  background-color: #f6a318;
+}
+.main .main__section--contenido {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.main .main__section--contenido .main__div h2 {
+  color: #f6a318;
+  font-family: "Work Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+}
+.main .main__section--contenido .main__div h3 {
+  color: #f6a318;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+}
+.main .main__section--contenido .main__div .lineaSubtitulo {
+  width: 5%;
+  color: #f6a318;
+  background-color: #f6a318;
+  border: none;
+  height: 0.5rem;
+  margin: 0rem;
+}
+.main .main__section--contenido .main__div p {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.main .main__section--contenido .main__div .fases {
+  display: flex;
+  justify-content: space-around;
+}
+.main .main__section--contenido .main__div .fases .fase {
+  width: 34%;
+}
+.main .main__section--contenido .main__div .fases .fase .linea {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.main .main__section--contenido .main__div .fases .fase .linea .circulo {
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid #f6a318;
+  border-radius: 50%;
+}
+.main .main__section--contenido .main__div .fases .fase .linea .hrNaranja {
+  width: 100%;
+  background-color: #f6a318;
+  border: none;
+  height: 5px;
+}
+.main .main__section--contenido .main__div .fases .fase h4 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.5rem;
+}
+.main .main__section--contenido .main__div .fases .fase p {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 1.5rem;
+}
+.main .main__section--contenido .main__div .fases .fase ul {
+  padding: 0.5rem;
+}
+.main .main__section--contenido .main__div .fases .fase ul li {
+  list-style: none;
+}/*# sourceMappingURL=main.css.map */
