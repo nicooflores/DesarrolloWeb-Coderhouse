@@ -5,157 +5,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/style.css">
+    <!-- <link rel="stylesheet" href="../styles/style.css"> -->
     <link rel="shortcut icon" href="../resources/images/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="../css/main.css">
     <title>Salta Mineria</title>
 </head>
 
 <body>
 
-    <head>
-        <div class="head">
-            <div class="icono">
-                <img src="../resources/images/logo.png" alt="Logo Puna Mining">
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="/resources/images/logo.png" alt="Logo Puna Mining" >
+                </a>
             </div>
-            <div class="menu">
-                <nav>
-                    <ul>
-                        <li><a href="../index.html">Inicio</a></li>
-                        <li><a href="./quienesSomos.html">Quienes Somos</a></li>
-                        <li><a href="./litio.html">Carbonato de Litio</a></li>
-                        <li><a href="./sustentabilidad.html">Sustentabilidad</a></li>
-                        <li><a href="./contacto.html">Contacto</a></li>
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link active" href="../index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="./quienesSomos.html">Quienes Somos</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="./litio.html">Carbonato de Litio</a></li>
+                        <li class="nav-item"><a class="nav-link active" ref='#'>Sustentabilidad</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="./contacto.html">Contacto</a>
+                        </li>
                     </ul>
-                </nav>
+                </div>
             </div>
-        </div>
-    </head>
+        </nav>
+    </header>
 
-    <main>
-        <div class="contenedorInicial">
-            <div class="contenedorSustImg">
+    <main class="main">
+        <section>
+            <div class="main__div imagen"></div>
+            <div class="main__div principal">
+                <div class="titulo">
+                    <h2><span>Somos</span></h2>
+                    <h2><span>un equipo</span></h2>
+                    <h2>socialmente</h2>
+                    <h2>responsable</h2>
+                </div>
+                <div class="parrafo">
+                    <p>Las políticas de Responsabilidad Social Empresarial son parte de nuestra visión estratégica: como empresa salteña queremos que nuestro trabajo aporte al crecimiento de toda la provincia, principalmente de las comunidades más cercanas a nuestro proyecto.</p>
+                </div>
             </div>
-        </div>
-        <div class="contenedorSust1">
-            <div class="tiutloSustTitulo">
-                <h2><span>Somos</span></h2>
-                <h2><span>un equipo</span></h2>
-                <h2>socialmente</h2>
-                <h2>responsable</h2>
-            </div>
-            <div class="tiutloSustParrafo">
-                <p>Las políticas de Responsabilidad Social
-                    Empresarial son parte de nuestra visión
-                    estratégica: como empresa salteña
-                    queremos que nuestro trabajo aporte al
-                    crecimiento de toda la provincia,
-                    principalmente de las comunidades
-                    más cercanas a nuestro proyecto.</p>
-            </div>
-        </div>
-        <div class="contenedorSustCuerpo">
-            <div class="cuerpoTitulo">
-                <h2>Ejes de Sustentabilidad</h2>
-                <hr>
-            </div>
-            <div class="cuerpoSubtiutlo">
+        </section>
+        <section class="main__section">
+            <h2>Ejes de Sustentabilidad</h2>
+            <hr>
+            <div class="subtitulo">
                 <p>1. RELACIONES CON LA COMUNIDAD</p>
                 <hr>
             </div>
-            <div class="cuerpoContenido">
-                <div class="contenidoSust">
-                    <div class="iconoSustSalud">
-                        <img src="../resources/images/iconoSaludFamiliar.png" alt="Familia">
-                    </div>
-                    <div class="textoSust">
-                        <p><span>Salud Familiar</span></p>
-                        <p>Trabajamos junto al Hospital de Campo Quijano y los Puestos Sanitarios de Olacapato y Pocitos. Apoyamos a la fundación “El Milagrito”, de Campo Quijano, para la asistencia alimentaria a familias del barrio San Jorge.</p>
-                    </div>
+            <div class="main__div ejes">
+                <div>
+                    <img src="../resources/images/iconoSaludFamiliar.png" alt="Familia">
+                    <p><span>Salud Familiar</span></p>
+                    <p>Trabajamos junto al Hospital de Campo Quijano y los Puestos Sanitarios de Olacapato y Pocitos. Apoyamos a la fundación “El Milagrito”, de Campo Quijano, para la asistencia alimentaria a familias del barrio San Jorge.</p>
                 </div>
-                <div class="contenidoSust">
-                    <div class="iconoSustEducacion">
-                        <img src="../resources/images/iconoEducacion.png" alt="Educación/Libros">
-                    </div>
-                    <div class="textoSust">
-                        <p><span>Educación</span></p>
-                        <p>Generamos proyectos educativos con las escuelas de las comunidades de Olacapato y Pocitos, como así también con las Escuelas técnicas de San Antonio de los Cobres y Campo Quijano.</p>
-                    </div>
+                <div>
+                    <img src="../resources/images/iconoEducacion.png" alt="Educación/Libros">
+                    <p><span>Educación</span></p>
+                    <p>Generamos proyectos educativos con las escuelas de las comunidades de Olacapato y Pocitos, como así también con las Escuelas técnicas de San Antonio de los Cobres y Campo Quijano.</p>
                 </div>
-                <div class="contenidoSust">
-                    <div class="iconoSustEmpleo">
-                        <img src="../resources/images/iconoEmpleo.png" alt="Empleo/Maletin">
-                    </div>
-                    <div class="textoSust">
-                        <p><span>Empleabilidad</span></p>
-                        <p>Priorizamos la contratación de personas de las comunidades locales. Capacitamos a nuestros colaboradores en temas específicos como cuidado del medio ambiente, reciclaje, educación emocional, RCP, entre otras.</p>
-                    </div>
+                <div>
+                    <img src="../resources/images/iconoEmpleo.png" alt="Empleo/Maletin">
+                    <p><span>Empleabilidad</span></p>
+                    <p>Priorizamos la contratación de personas de las comunidades locales. Capacitamos a nuestros colaboradores en temas específicos como cuidado del medio ambiente, reciclaje, educación emocional, RCP, entre otras.</p>
                 </div>
             </div>
-            <div class="cuerpoSubtiutlo">
+            <div class="subtitulo">
                 <p>2. RELACIONES INSTITUCIONALES</p>
                 <hr>
             </div>
-            <div class="cuerpoContenido">
-                <div class="contenidoSust">
-                    <div class="iconoSustEmpleo">
-                        <img src="../resources/images/iconoSociales.png" alt="Manos Juntas">
-                    </div>
-                    <div class="textoSust">
-                        <p><span>Mesas Sociales</span></p>
-                        <p>Participamos en las mesas
-                            sociales correspondientes a las
-                            comunidades de Olacapato y
-                            Pocitos junto con la Secretaría
-                            de Minería.</p>
-                    </div>
+            <div class="main__div ejes">
+                <div>
+                    <img src="../resources/images/iconoSociales.png" alt="Manos Juntas">
+                    <p><span>Mesas Sociales</span></p>
+                    <p>Participamos en las mesas sociales correspondientes a las comunidades de Olacapato y Pocitos junto con la Secretaría de Minería.</p>
                 </div>
-                <div class="contenidoSust">
-                    <div class="iconoSustSalud">
-                        <img src="../resources/images/iconoReuniones.png" alt="Foco">
-                    </div>
-                    <div class="textoSust">
-                        <p><span>Reuniones Gubernamentales</span></p>
-                        <p>Participamos en reuniones
-                            estratégicas con distintas áreas
-                            del gobierno provincial y
-                            nacional con el fin de articular
-                            iniciativas público-privadas. </p>
-                    </div>
+                <div>
+                    <img src="../resources/images/iconoReuniones.png" alt="Foco">
+                    <p><span>Reuniones Gubernamentales</span></p>
+                    <p>Participamos en reuniones estratégicas con distintas áreas del gobierno provincial y nacional con el fin de articular iniciativas público-privadas. </p>
                 </div>
-                <div class="contenidoSust">
-                    <div class="iconoSustEducacion">
-                        <img src="../resources/images/iconoReuniones2.png" alt="Casco, Arbol y Escudo">
-                    </div>
-                    <div class="textoSust">
-                        <p><span>Reuniones del Sector</span></p>
-                        <p>Somos socios/participamos en
-                            la Cámara Minería de Salta y en
-                            la Cámara Argentina de
-                            Empresarios Mineros. </p>
-                    </div>
+                <div>
+                    <img src="../resources/images/iconoReuniones2.png" alt="Casco, Arbol y Escudo">
+                    <p><span>Reuniones del Sector</span></p>
+                    <p>Somos socios/participamos en la Cámara Minería de Salta y en la Cámara Argentina de Empresarios Mineros. </p>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 
-    <footer>
-        <div class="footer">
-            <div class="iconoPiePagina">
-                <img src="../resources/images/logo.png" alt="Logo Puna Mining">
-            </div>
-            <div class="piePagina">
-                <div class="redesSociales">
-                    <img src="../resources/images/facebook.png" alt="Icono Facebook">
-                </div>
-                <div class="redesSociales">
-                    <img src="../resources/images/instagram.png" alt="Icono Instagram">
-                </div>
-                <div class="redesSociales">
-                    <img src="../resources/images/linkedin.png" alt="Icono Linkedin">
-                </div>
-            </div>
-        </div>
+    <footer class="footer">
+        <div><i class="fa-brands fa-instagram"></i></div>
+        <div><i class="fa-brands fa-facebook"></i></div>
+        <div><i class="fa-brands fa-twitter"></i></div>
+        <div><i class="fa-brands fa-linkedin"></i></div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/852b0a515a.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

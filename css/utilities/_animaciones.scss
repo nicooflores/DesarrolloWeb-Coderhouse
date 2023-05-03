@@ -1,0 +1,17 @@
+@keyframes titulo{
+    0%{
+        filter: none;
+    }
+    25%{
+        filter: drop-shadow(8px 8px 4px $naranja);
+    }
+    50%{
+        filter: none;
+    }
+    75%{
+        filter: drop-shadow(8px 8px 4px $naranja);
+    }
+    100%{
+        filter: none;
+    }
+}

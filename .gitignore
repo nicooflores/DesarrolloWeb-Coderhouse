@@ -5,9 +5,9 @@
 WireFrame.pdf
 
 #Ignorar los archivos SASS
-/css/sections/
-/css/utilities/
-main.scss
+#/css/sections/
+#/css/utilities/
+#main.scss
 
 #Estilo viejo
 /css/style.css

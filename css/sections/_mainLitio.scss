@@ -1,0 +1,67 @@
+.main{
+    .main-litio__section1{
+        background-image: url("/resources/images/piletasPanoramica.JPG");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 350px;
+        text-align: center;
+        h1{
+            font-family: $titulo;
+            font-size: 3rem;
+            font-weight: 700;
+            background-color:  rgba(255, 255, 255, 0.825);
+            width: 100%;
+            padding: 1rem;
+        }
+    }
+
+    .main-litio__section2{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+
+        h2{
+            font-family: $titulo;
+            font-size: 2rem;
+            color: $naranja;
+            font-weight: 600;
+            margin-top: 2rem;
+            margin-bottom: 0px;            
+        }
+        hr{
+            width: 5%;
+            margin: 0px;
+            background-color: $naranja;
+            border: none;
+            height: 0.5rem;
+        }
+        p{
+            font-size: 1.5rem;
+            margin-top: 1rem;
+        }
+        .main-litio__div {
+            height: 20rem;
+            display: flex;
+            gap: 0.2rem;
+            div{
+                flex: 2;
+                border-radius: 1rem;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: auto 100%;
+                transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+                &:hover{
+                    flex: 3;
+                }
+            }
+            
+        }
+        iframe{
+            width: 60%;
+            height: 250px;
+            margin-top: 3rem;
+        }
+
+    }
+}
