@@ -50,27 +50,30 @@
         padding-right: 10%;
         margin-bottom: 2rem;
 
-        h2{
+        h2 {
             color: $naranja;
             font-family: $titulo;
             font-size: 2rem;
             margin-bottom: 0rem;
             margin-top: 2rem;
         }
-        hr{
+
+        hr {
             width: 5%;
             background-color: $naranja;
             border: none;
             height: 0.5rem;
             margin: 0rem;
         }
-        .subtitulo{
-            p{
+
+        .subtitulo {
+            p {
                 font-size: 1.5rem;
                 margin-top: 1rem;
                 margin-bottom: 0.1rem;
             }
-            hr{
+
+            hr {
                 height: 0.1rem;
                 color: black;
                 background-color: black;
@@ -78,8 +81,8 @@
                 margin-bottom: 1rem;
             }
         }
-        
-        
+
+
         .ejes {
             display: flex;
             align-items: flex-start;
@@ -88,15 +91,98 @@
             div {
                 width: 33%;
                 text-align: center;
+
                 img {
                     width: 150px;
                 }
+
                 p {
                     font-size: 1rem;
                     padding: 1rem;
                     margin: 0rem;
+
                     span {
                         font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+
+
+    @media (max-width: 425px) {
+        .main__div {
+            width: 100%;
+        }
+
+        .imagen {
+            height: 150px;
+        }
+
+        .principal {
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+
+            .titulo {
+                padding-right: 0.5rem;
+                h2 {
+                    font-size: 1.5rem;
+                }
+            }
+
+            .parrafo {
+                padding-left: 0.5rem;
+                border-left: solid 0.2rem $naranja;
+
+                p {
+                    font-size: 0.8rem;
+                }
+            }
+        }
+
+        .main__section {
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            margin-bottom: 1rem;
+
+            h2 {
+                font-size: 1.4rem;
+                margin-top: 1rem;
+            }
+
+            hr {
+                width: 10%;
+                height: 0.3rem;
+            }
+
+            .subtitulo {
+                margin-top: 0.8rem;
+                p {
+                    font-size: 1rem;
+                    margin-top: 0rem;
+                }
+            }
+
+
+            .ejes {
+                flex-direction: column;
+
+                div {
+                    width: 100%;
+                    margin-bottom: 0.3rem;
+                    padding: 0.3rem;
+                    border: solid 1px $grisClaro;
+                    
+                    img {
+                        width: 100px;
+                    }
+
+                    p {
+                        font-size: 1rem;
+                        padding: 0rem;
+                        padding-top: 0.5rem;
                     }
                 }
             }

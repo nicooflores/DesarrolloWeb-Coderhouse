@@ -64,4 +64,52 @@
         }
 
     }
+
+    @media (max-width: 425px){
+
+        .main-litio__section1{
+            padding-top: 100px;
+            h1{
+                font-size: 1.8rem;
+                padding: 0.5rem;
+            }
+        }
+    
+        .main-litio__section2{
+            width: 100%;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            margin: 0rem;
+    
+            h2{
+                font-size: 1.4rem;
+                margin-top: 0.8rem;
+            }
+            hr{
+                width: 10%;
+                height: 0.3rem;
+            }
+            p{
+                font-size: 0.8rem;
+                margin-top: 0.8rem;
+                margin-bottom: 0rem;
+            }
+            .main-litio__div {
+                margin-top: 0.8rem;
+                flex-direction: column;
+                div{
+                    border-radius: 0.5rem;
+                    background-size: cover;
+                }
+            }
+            iframe{
+                width: 80%;
+                height: 180px;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                margin-left: 10%;
+            }
+    
+        }
+    }
 }

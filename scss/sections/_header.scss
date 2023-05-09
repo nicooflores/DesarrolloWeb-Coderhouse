@@ -1,0 +1,56 @@
+.header {
+    width: 100%;
+    min-height: 60px;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    border-bottom: 4px solid orange;
+
+    .container {
+        padding-left: 2rem;
+
+        img {
+            height: 50px;
+        }
+    }
+
+    .navbar-collapse {
+        justify-content: flex-end;
+
+        .nav-item {
+            list-style: none;
+            font-family: $titulo;
+            font-size: 1rem;
+
+            &:hover{
+                text-decoration: underline orange 2px;
+            }
+
+        }
+    }
+
+    @media (max-width: 425px){
+        border-bottom: 2px solid orange;
+        .navbar{
+            flex-wrap: nowrap;
+            .container {
+                padding-left: 1rem;
+        
+                img {
+                    height: 30px;
+                }
+            }
+            .container-fluid{
+                justify-content: flex-end;
+                .navbar-toggler{
+                    font-size: 0.7rem;
+                    padding: 0.2rem;
+                }
+                .nav-item{
+                    margin-left: 0.9rem;
+                    font-size: 0.7rem;
+                }
+            }
+        }
+    }
+}

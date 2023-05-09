@@ -1,13 +1,13 @@
 #Ignorar archivos del visual studio
-.vscode
+.vscode/
 
 #Ignorar WireFrame
 WireFrame.pdf
 
 #Ignorar los archivos SASS
-#/css/sections/
-#/css/utilities/
-#main.scss
+#/scss
+*json
+/node_modules
 
 #Estilo viejo
 /css/style.css

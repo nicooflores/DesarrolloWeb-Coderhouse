@@ -20,4 +20,14 @@
             color: #1E3050;
         }
     }
+
+    @media (max-width: 425px){
+        height: 3.5rem;
+        padding: 0.5rem;
+        
+        div{
+            border: solid 2px #1E3050;
+            padding: 0.3rem;
+        }
+    }
 }
